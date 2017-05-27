@@ -1,5 +1,5 @@
 # puppet
-Example of a first puppet module for new kids on the block. Basic things, install package, install new shell, change shell on user and modify .zshrc for fancy prompt with a ticker... Because I'm cool :-)
+Example of a first puppet module for new kids on the block. Just create the module skeleton with "puppet module generate module_name" and edit init.pp in ...modules/module_name/manifests/init.pp. Basic things, install package, install new shell, change shell on user and modify .zshrc for fancy prompt with a ticker... Because I'm cool zsh guy :-) (zeeshell me)
 
 stest - is a simple speed test I use for each provider just to see how they stack up with others. Nothing fancy but it does the job.
 
