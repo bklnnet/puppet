@@ -33,3 +33,4 @@ echo
 ```
 
 Yeah man, you read that right, bring the fortunes back... I miss slackware :-)
+Oh and also a my private alias ws (as in "wassup?") it simple shows you who/what is connected and who/what is listening, comes handy just two keystrokes, got inspired by ll from redhat :-)
