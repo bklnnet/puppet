@@ -3,14 +3,14 @@ Example of a first puppet module for new kids on the block. Basic things, instal
 
 stest - is a simple speed test I use for each provider just to see how they stack up with others. Notheing fancy but it does the job.
 
-<code>
+<raw>
 #!/bin/bash    
 curl -s  https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
-</code>
+</raw>
 
 example of .zshrc just add it at the end of your file 
 
-<code>
+<raw>
 setopt PROMPT_SUBST
 PROMPT='[%n@%m%f%F{yellow}(%D{%k:%M:%S})%f]:${${(%):-%~}}$ %b'
 TMOUT=1
@@ -30,6 +30,6 @@ alias ws='sudo netstat -pant4'
 echo
 fortune -a
 echo
-</code>
+</raw>
 
 Yeah man, you read that right, bring the fortunes back... I miss slackware :-)
