@@ -1,12 +1,12 @@
 # puppet
 Example of a first puppet module for new kids on the block. Basic things, install package, install new shell, change shell on user and modify .zshrc for fancy prompt with a ticker... Because I'm cool :-)
 
-stest - is a simple speed test I use for each provider just to see how they stack up with others. Notheing fancy but it does the job.
+stest - is a simple speed test I use for each provider just to see how they stack up with others. Nothing fancy but it does the job.
 
-<raw>
+<plaintext>
 #!/bin/bash    
 curl -s  https://raw.githubusercontent.com/sivel/speedtest-cli/master/speedtest.py | python -
-</raw>
+</plaintext>
 
 example of .zshrc just add it at the end of your file 
 
