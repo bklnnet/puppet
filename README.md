@@ -21,7 +21,7 @@ TRAPALRM() {
 
 case $TERM in
     xterm*)
-        precmd () {print -Pn "\e]0;%m \a"}
+        precmd () {print -Pn "\e]0;%m \a"} # because I want to see only hostname in the title bar of my terminal
         ;;
 esac
 
@@ -33,4 +33,4 @@ echo
 ```
 
 Yeah man, you read that right, bring the fortunes back... I miss slackware :-)
-Oh and also a my private alias ws (as in "wassup?") it simple shows you who/what is connected and who/what is listening, comes handy just two keystrokes, got inspired by ll from redhat :-)
+Oh, and also a my private alias ws (as in "wassup?") it simply shows you who/what is connected and who/what is listening, comes handy just two keystrokes, got inspired by ll from redhat :-)
